@@ -77,6 +77,9 @@ namespace FoxLearnDotNetMVC.Models
         [Display(Name = "User Name"), Required]
         public string UserName { get; set; }
 
+        [Display(Name = "Full Name"), Required]
+        public string FullName { get; set; }
+
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
         [DataType(DataType.Password)]
@@ -87,6 +90,8 @@ namespace FoxLearnDotNetMVC.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        public bool Gender { get; set; }
     }
 
     public class ResetPasswordViewModel
