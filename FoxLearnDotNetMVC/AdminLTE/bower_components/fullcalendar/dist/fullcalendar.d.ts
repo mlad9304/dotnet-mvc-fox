@@ -1,6 +1,10 @@
+import Moment = require("../../moment/moment");
+
 declare module 'fullcalendar/src/util' {
 	import * as moment from 'moment';
-	export function compensateScroll(rowEls: any, scrollbarWidths: any): void;
+    import Moment1 = Moment.moment;
+
+    export function compensateScroll(rowEls: any, scrollbarWidths: any): void;
 	export function uncompensateScroll(rowEls: any): void;
 	export function disableCursor(): void;
 	export function enableCursor(): void;
@@ -59,7 +63,7 @@ declare module 'fullcalendar/src/util' {
 	export function flexibleCompare(a: any, b: any): number;
 	export const dayIDs: string[];
 	export const unitsDesc: string[];
-	export function diffDayTime(a: any, b: any): moment.Duration;
+	export function diffDayTime(a: any, b: any): Moment1.Duration;
 	export function diffDay(a: any, b: any): moment.Duration;
 	export function diffByUnit(a: any, b: any, unit: any): moment.Duration;
 	export function computeGreatestUnit(start: any, end?: any): any;
