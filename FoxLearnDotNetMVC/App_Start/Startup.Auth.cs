@@ -58,11 +58,11 @@ namespace FoxLearnDotNetMVC
             //   appId: "",
             //   appSecret: "");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "268246183350-9jcarcr6gjclpmm1ki3s52pr9247gvun.apps.googleusercontent.com",
+                ClientSecret = "gPPCg34I3UNAnkV1mgPBtVhh"
+            });
         }
     }
 }

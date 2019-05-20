@@ -9,6 +9,12 @@ namespace FoxLearnDotNetMVC.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+        [Display(Name = "Full Name")]
+        public string FullName { get; set; }
+
+        public bool Gender { get; set; }
+        [Display(Name = "User Name")]
+        public string UserName { get; set; }
     }
 
     public class ExternalLoginListViewModel
