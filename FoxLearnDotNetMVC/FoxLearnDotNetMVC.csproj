@@ -6830,6 +6830,12 @@
     <Content Include="dist\js\demo.js" />
     <Content Include="dist\js\pages\dashboard.js" />
     <Content Include="dist\js\pages\dashboard2.js" />
+    <Content Include="eventregister\css\font-awesome.css" />
+    <Content Include="eventregister\css\style.css" />
+    <Content Include="eventregister\index.html" />
+    <Content Include="eventregister\js\jquery-2.1.4.min.js" />
+    <Content Include="eventregister\js\jquery.vide.min.js" />
+    <Content Include="eventregister\video\Ipad.mp4" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -9234,6 +9240,14 @@
     <Content Include="plugins\Ionicons\scss\_ionicons-icons.scss" />
     <Content Include="plugins\Ionicons\scss\_ionicons-variables.scss" />
     <Content Include="plugins\Ionicons\scss\ionicons.scss" />
+    <Content Include="eventregister\fonts\CinzelDecorative-Black.ttf" />
+    <Content Include="eventregister\fonts\CinzelDecorative-Bold.ttf" />
+    <Content Include="eventregister\fonts\CinzelDecorative-Regular.ttf" />
+    <Content Include="eventregister\fonts\fontawesome-webfont.eot" />
+    <Content Include="eventregister\fonts\fontawesome-webfont.ttf" />
+    <Content Include="eventregister\fonts\fontawesome-webfont.woff" />
+    <Content Include="eventregister\fonts\fontawesome-webfont.woff2" />
+    <Content Include="eventregister\fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -9288,6 +9302,7 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Test\Index.cshtml" />
     <Content Include="Views\Account\SmartLogin.cshtml" />
+    <Content Include="Views\Account\EventRegister.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

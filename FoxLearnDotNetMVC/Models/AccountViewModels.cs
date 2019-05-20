@@ -83,7 +83,7 @@ namespace FoxLearnDotNetMVC.Models
         [Display(Name = "User Name"), Required]
         public string UserName { get; set; }
 
-        [Display(Name = "Full Name"), Required]
+        [Display(Name = "Full Name")]
         public string FullName { get; set; }
 
         [Required]
@@ -98,6 +98,8 @@ namespace FoxLearnDotNetMVC.Models
         public string ConfirmPassword { get; set; }
 
         public bool Gender { get; set; }
+        [Display(Name = "Phone Number")]
+        public string PhoneNumber { get; set; }
     }
 
     public class ResetPasswordViewModel
